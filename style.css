@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+    transition: 0.5s;
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(102, 102, 225);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    box-shadow: 0 40px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    width: 600px;
+    background-color:rgb(225, 225, 225);
+    margin: 10px;
+}
+
+.wrapper header{
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.wrapper .content{
+    margin: 35px 0;
+}
+
+.content .qoute-area{
+    display: flex;
+    justify-content: center;
+}
+
+.qoute-area .qoute{
+    font-size: 500px;
+    text-align: center;
+    word-break: break-all;
+}
+
+.content .author{
+    display: flex;
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: flex-end;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+}
+
+.wrapper .button{
+    border-top: 1px solid white;
+}
+
+.button .features{
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0 5px;
+    height: 47px;
+    width: 47px;
+    border: 2px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.feature ul li{
+   color: white;
+   background: rgb(76, 76, 210); 
+}
+
+.features button{
+   float: left;
+   border: none;
+   outline: none;
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+   padding: 13px 22px;
+   border-radius: 30px;
+   background-color: rgb(80, 80, 205);
+}
+.feature .sound .copy {
+    cursor: pointer;
+}
